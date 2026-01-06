@@ -37,11 +37,11 @@ function App() {
           <Route path="/career" element={<Career />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/project-single" element={<Project_single />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/service-single" element={<Service_single />} />
-          <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+          <Route path="/Terms&Conditions" element={<TermsAndConditions />} />
           {/* other routes */}
         </Routes>
     </BrowserRouter>

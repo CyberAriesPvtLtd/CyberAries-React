@@ -13,6 +13,7 @@ import "../css/custom-swiper-1.css";
 
 // Icons
 import "@icon/icofont/icofont.css";
+import "icofont/dist/icofont.css";
 
 // Images
 import logoWhite from "../images/logo-white.webp";

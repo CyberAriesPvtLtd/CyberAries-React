@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useModals } from "../useModals";
+import { useEffect } from "react";
 import ReloadLink from "../components/ReloadLink";
 
 // CSS
@@ -55,6 +56,36 @@ import news3 from "../images/news/s3.webp";
 
 
 function Home() {
+
+  useEffect(() => {
+  if (window.$ && window.$.fn.owlCarousel) {
+    const $carousel = window.$(".owl-carousel");
+
+    // prevent double init (React strict mode / rerender)
+    if ($carousel.hasClass("owl-loaded")) {
+      $carousel.trigger("destroy.owl.carousel");
+      $carousel.removeClass("owl-loaded");
+      $carousel.find(".owl-stage-outer").children().unwrap();
+    }
+
+    $carousel.owlCarousel({
+      loop: true,
+      margin: 30,
+      autoplay: true,
+      autoplayTimeout: 2500,
+      autoplayHoverPause: true,
+      smartSpeed: 800,
+      dots: true,
+      nav: false,
+      responsive: {
+        0: { items: 1 },
+        768: { items: 2 },
+        992: { items: 4 },
+      },
+    });
+  }
+}, []);
+
   useModals();
   return (
     <div>
@@ -194,43 +225,70 @@ function Home() {
         {/* header end */}
         {/* content begin */}
         <div className="no-bottom no-top" id="content">
-          <div id="top" />
-          <section className="jarallax text-light section-dark" data-video-src="mp4:video/1.mp4">
-            <div className="sw-overlay op-6" />
-            <div className="gradient-edge-bottom" />
-            <div className="container relative z-3">
-              <div className="row g-4 justify-content-center">
-                <div className="col-lg-12 text-center">
-                  <div className="spacer-double" />
-                  <div className="subtitle text-light s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Cybersecurity Experts</div>
-                  <h1 className="fs-120 fs-xs-10vw wow fadeInUp">Cyber Aries Pvt. Ltd.</h1>
-                  <p className="lead mb-0 col-lg-6 offset-lg-3 wow fadeInUp" data-wow-delay=".2s"> Empowering organizations with expert audits, continuous monitoring, and deep penetration testing — ensuring resilience, compliance, and confidence in every layer of your digital ecosystem.</p>
-                  <div className="spacer-single" />
-                  <a className="btn-main fx-slide wow fadeIn" data-wow-delay=".6s" href="/appointment"><span>Book a Free Security Consultation</span></a>
-                </div>
-                <div className="row g-4">
-                  <div className="col-lg-2 col-sm-4 col-6 wow fadeInRight" data-wow-delay=".2s">
-                    <img src={b1} className="w-100 px-4" alt="Badge 1" />
-                  </div>
-                  <div className="col-lg-2 col-sm-4 col-6 wow fadeInRight" data-wow-delay=".4s">
-                    <img src={b2} className="w-100 px-4" alt="Badge 2" />
-                  </div>
-                  <div className="col-lg-2 col-sm-4 col-6 wow fadeInRight" data-wow-delay=".6s">
-                    <img src={b3} className="w-100 px-4" alt="Badge 3" />
-                  </div>
-                  <div className="col-lg-2 col-sm-4 col-6 wow fadeInRight" data-wow-delay=".8s">
-                    <img src={b4} className="w-100 px-4" alt="Badge 4" />
-                  </div>
-                  <div className="col-lg-2 col-sm-4 col-6 wow fadeInRight" data-wow-delay="1.2s">
-                    <img src={b5} className="w-100 px-4" alt="Badge 5" />
-                  </div>
-                  <div className="col-lg-2 col-sm-4 col-6 wow fadeInRight" data-wow-delay="1.4s">
-                    <img src={b6} className="w-100 px-4" alt="Badge 6" />
-                  </div>
-                </div>
-              </div>
+  <div id="top" />
+
+  <section className="hero-video-section text-light section-dark">
+    {/* VIDEO BACKGROUND */}
+    <video
+      className="bg-video"
+      autoPlay
+      loop
+      muted
+      playsInline
+      preload="auto"
+    >
+      <source src="/video/1.mp4" type="video/mp4" />
+    </video>
+
+    {/* OVERLAYS */}
+    <div className="sw-overlay op-6" />
+    <div className="gradient-edge-bottom" />
+
+    <div className="container relative z-3">
+      <div className="row g-4 justify-content-center">
+        <div className="col-lg-12 text-center">
+          <div className="spacer-double" />
+
+          <div className="subtitle text-light s2 mb-3 wow fadeInUp">
+            Cybersecurity Experts
+          </div>
+
+          <h1 className="fs-120 fs-xs-10vw wow fadeInUp">
+            Cyber Aries Pvt. Ltd.
+          </h1>
+
+          <p className="lead mb-0 col-lg-6 offset-lg-3 wow fadeInUp">
+            Empowering organizations with expert audits, continuous monitoring,
+            and deep penetration testing — ensuring resilience, compliance, and
+            confidence in every layer of your digital ecosystem.
+          </p>
+
+          <div className="spacer-single" />
+
+          <a
+            className="btn-main fx-slide wow fadeIn"
+            href="/appointment"
+          >
+            <span>Book a Free Security Consultation</span>
+          </a>
+        </div>
+
+        {/* BADGES */}
+        <div className="row g-4">
+          {[b1, b2, b3, b4, b5, b6].map((badge, i) => (
+            <div
+              key={i}
+              className="col-lg-2 col-sm-4 col-6 wow fadeInRight"
+              data-wow-delay={`${0.2 + i * 0.2}s`}
+            >
+              <img src={badge} className="w-100 px-4" alt={`Badge ${i + 1}`} />
             </div>
-          </section></div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
         <section className="section-dark bg-dark-3 text-light pt-60 pb-50 relative overflow-hidden">
           <div className="w-30 abs abs-middle end-0 me-5 op-1">
             <img
@@ -1170,8 +1228,8 @@ function Home() {
                   </div>
                   <div>
                     <ul className="menu-simple">
-                      <li><a href="#" data-modal="termsModal">Terms &amp; Conditions</a></li>
-                      <li><a href="#" data-modal="privacyModal">Privacy Policy</a></li>
+                      <li><a href="/Terms&Conditions" data-modal="termsModal">Terms &amp; Conditions</a></li>
+                      <li><a href="/privacy" data-modal="privacyModal">Privacy Policy</a></li>
                     </ul>
                   </div>
                 </div>
