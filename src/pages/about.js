@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { useModals } from "../useModals";
 import ReloadLink from "../components/ReloadLink";
 
 // CSS
@@ -15,44 +13,6 @@ import "../css/custom-swiper-1.css";
 import "@icon/icofont/icofont.css";
 import "icofont/dist/icofont.css";
 
-// Images
-import logoWhite from "../images/logo-white.webp";
-import logoBigWhite from "../images/logo-big-white.webp";
-
-import b1 from "../images/badge/1.webp";
-import b2 from "../images/badge/2.webp";
-import b3 from "../images/badge/3.webp";
-import b4 from "../images/badge/4.webp";
-import b5 from "../images/badge/5.webp";
-import b6 from "../images/badge/6.webp";
-
-import bg6 from "../images/background/6.webp";
-
-import l1 from "../images/misc/l1.webp";
-import s1 from "../images/misc/s1.webp";
-import s2 from "../images/misc/s2.webp";
-import s3 from "../images/misc/s3.webp";
-import c1 from "../images/misc/c1.webp";
-
-import project1 from "../images/projects/1.webp";
-import project2 from "../images/projects/2.webp";
-import project3 from "../images/projects/3.webp";
-
-import testimonial1 from "../images/testimonial/1.webp";
-import testimonial2 from "../images/testimonial/2.webp";
-import testimonial3 from "../images/testimonial/3.webp";
-import testimonial4 from "../images/testimonial/4.webp";
-import testimonial5 from "../images/testimonial/5.webp";
-import testimonial6 from "../images/testimonial/6.webp";
-import testimonial7 from "../images/testimonial/7.webp";
-import testimonial8 from "../images/testimonial/8.webp";
-import testimonial9 from "../images/testimonial/9.webp";
-import testimonial10 from "../images/testimonial/10.webp";
-
-import news1 from "../images/news/s1.webp";
-import news2 from "../images/news/s2.webp";
-import news3 from "../images/news/s3.webp";
-
 function About() {
   return (
     <div>
@@ -61,25 +21,22 @@ function About() {
       <meta content="text/html;charset=utf-8" httpEquiv="Content-Type" />
       <meta content="width=device-width, initial-scale=1.0" name="viewport" />
       <meta content="Cyber Aries Pvt. Ltd." name="description" />
-      <meta content name="keywords" />
-      <meta content name="author" />
-      {/* CSS Files
-    ================================================== */}
+      <meta name="keywords" content="" />
+      <meta name="author" content="" />
+      
       <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap" />
       <link href="css/plugins.css" rel="stylesheet" type="text/css" />
       <link href="css/swiper.css" rel="stylesheet" type="text/css" />
       <link href="css/style.css" rel="stylesheet" type="text/css" />
-      {/* color scheme */}
       <link id="colors" href="css/colors/scheme-1.css" rel="stylesheet" type="text/css" />
+      
       <div id="wrapper">
         <div className="float-text show-on-scroll">
-          <span><a href="#">Scroll to top</a></span>
+          <span><a href="/">Scroll to top</a></span>
         </div>
         <div className="scrollbar-v show-on-scroll" />
-        {/* preloader begin */}
         <div id="de-loader" />
-        {/* preloader end */}
-        {/* header begin */}
+        
         <header>
           <div id="topbar">
             <div className="container">
@@ -87,17 +44,17 @@ function About() {
                 <div className="col-lg-12">
                   <div className="d-flex justify-content-between xs-hide">
                     <div className="d-flex">
-                      <div className="topbar-widget me-3"><a href="#"><i className="icofont-location-pin" />Hiranandani Business Park, Powai, Mumbai - 400071</a></div>
-                      <div className="topbar-widget me-3"><a href="#"><i className="icofont-phone" />+91 8828495202</a></div>
-                      <div className="topbar-widget me-3"><a href="#"><i className="icofont-envelope" />info@cyberaries.com</a></div>
+                      <div className="topbar-widget me-3"><a href="/"><i className="icofont-location-pin" />Hiranandani Business Park, Powai, Mumbai - 400071</a></div>
+                      <div className="topbar-widget me-3"><a href="/"><i className="icofont-phone" />+91 8828495202</a></div>
+                      <div className="topbar-widget me-3"><a href="mailto:info@cyberaries.com"><i className="icofont-envelope" />info@cyberaries.com</a></div>
                     </div>
                     <div className="d-flex">
                       <div className="social-icons">
-                        <a href="#"><i className="fa-brands fa-facebook fa-lg" /></a>
-                        <a href="#"><i className="fa-brands fa-x-twitter fa-lg" /></a>
-                        <a href="#"><i className="fa-brands fa-youtube fa-lg" /></a>
-                        <a href="#"><i className="fa-brands fa-pinterest fa-lg" /></a>
-                        <a href="#"><i className="fa-brands fa-instagram fa-lg" /></a>
+                        <a href="/"><i className="fa-brands fa-facebook fa-lg" /></a>
+                        <a href="/"><i className="fa-brands fa-x-twitter fa-lg" /></a>
+                        <a href="/"><i className="fa-brands fa-youtube fa-lg" /></a>
+                        <a href="/"><i className="fa-brands fa-pinterest fa-lg" /></a>
+                        <a href="/"><i className="fa-brands fa-instagram fa-lg" /></a>
                       </div>
                     </div>
                   </div>
@@ -111,60 +68,26 @@ function About() {
               <div className="col-md-12">
                 <div className="de-flex sm-pt10">
                   <div className="de-flex-col">
-                    {/* logo begin */}
                     <div id="logo">
                       <a href="/">
-                        <img className="logo-main" src="images/logo-white.webp" alt />
-                        <img className="logo-mobile" src="images/logo-white.webp" alt />
+                        <img className="logo-main" src="images/logo-white.webp" alt="Cyber Aries Logo" />
+                        <img className="logo-mobile" src="images/logo-white.webp" alt="Cyber Aries Mobile Logo" />
                       </a>
                     </div>
-                    {/* logo end */}
                   </div>
                   <div className="de-flex-col header-col-mid">
-                    {/* mainemenu begin */}
                     <ul id="mainmenu">
-                      <li>
-                        <ReloadLink className="menu-item" to="/">
-                          Home
-                        </ReloadLink>
-                      </li>
-
-                      <li>
-                        <ReloadLink className="menu-item" to="/about">
-                          About Us
-                        </ReloadLink>
-                      </li>
-
-                      <li>
-                        <ReloadLink className="menu-item" to="/services">
-                          Services
-                        </ReloadLink>
-                      </li>
-
-                      <li>
-                        <ReloadLink className="menu-item" to="/projects">
-                          Projects
-                        </ReloadLink>
-                      </li>
-
-                      <li>
-                        <ReloadLink className="menu-item" to="/blog">
-                          Blog
-                        </ReloadLink>
-                      </li>
-
-                      <li>
-                        <ReloadLink className="menu-item" to="/contact">
-                          Contact Us
-                        </ReloadLink>
-                      </li>
+                      <li><ReloadLink className="menu-item" to="/">Home</ReloadLink></li>
+                      <li><ReloadLink className="menu-item" to="/about">About Us</ReloadLink></li>
+                      <li><ReloadLink className="menu-item" to="/services">Services</ReloadLink></li>
+                      <li><ReloadLink className="menu-item" to="/projects">Projects</ReloadLink></li>
+                      <li><ReloadLink className="menu-item" to="/blog">Blog</ReloadLink></li>
+                      <li><ReloadLink className="menu-item" to="/contact">Contact Us</ReloadLink></li>
                     </ul>
-                    {/* mainmenu end */}
                   </div>
                   <div className="de-flex-col">
                     <div className="menu_side_area">
                       <a href="/appointment" className="btn-main fx-slide"><span>Start For Free</span></a>
-                      {/* <a href="pricing.html" class="btn-main fx-slide"><span>Explore Pricing</span></a> */}
                       <span id="menu-btn" />
                     </div>
                   </div>
@@ -173,13 +96,12 @@ function About() {
             </div>
           </div>
         </header>
-        {/* header end */}
-        {/* content begin */}
+
         <div className="no-bottom no-top" id="content">
           <div id="top" />
           <section id="subheader" className="section-dark bg-dark text-light relative jarallax">
             <div className="gradient-edge-top" />
-            <img src="images/background/1.webp" className="jarallax-img" alt />
+            <img src="images/background/1.webp" className="jarallax-img" alt="" />
             <div className="container relative z-2">
               <div className="row gy-4 gx-5 align-items-center">
                 <div className="spacer-double sm-hide" />
@@ -196,6 +118,7 @@ function About() {
               </div>
             </div>
           </section>
+
           <section data-bgimage="url(images/background/6.webp) top">
             <div className="container">
               <div className="row g-4 gx-5 align-items-center">
@@ -235,6 +158,7 @@ function About() {
               </div>
             </div>
           </section>
+
           <div className="bg-color text-light d-flex py-4 lh-1 overflow-hidden">
             <div className="de-marquee-list-2 wow fadeIn" data-wow-duration="2s">
               <span className="fs-32 fw-500">Network Security</span>
@@ -251,6 +175,7 @@ function About() {
               <span className="mx-3 fs-32 op-3">/</span>
             </div>
           </div>
+
           <section className="bg-light">
             <div className="container">
               <div className="row gy-4 gx-5">
@@ -283,7 +208,7 @@ function About() {
                     </div>
                   </div>
                   <div className="relative mb-4 wow fadeInUp" data-wow-delay=".4s">
-                    <img src="images/icons-dark/cloud.png" className="absolute w-100px p-3 mb-3 z-2" alt="Safety Icon" />
+                    <img src="images/icons-dark/cloud.png" className="absolute w-100px p-3 mb-3 z-2" alt="Data Protection Icon" />
                     <div className="ps-100">
                       <h4>Data Protection</h4>
                       <p>Safeguard sensitive data against breaches and leaks with strong encryption, access control, and secure storage.</p>
@@ -301,16 +226,15 @@ function About() {
               <div className="spacer-single sm-hide" />
             </div>
           </section>
+
           <section className="section-dark text-light bg-dark-gradient no-top no-bottom overflow-hidden">
             <div className="container-fluid position-relative half-fluid">
               <div className="container">
                 <div className="row">
-                  {/* Image */}
                   <div className="col-lg-6 position-lg-absolute right-half h-100">
                     <div className="triangle-bottomright-dark" />
-                    <div className="image" data-bgimage="url(images/misc/s4.webp) center" />
+                    <div className="image" style={{backgroundImage: "url(images/misc/s4.webp)", backgroundPosition: "center"}} />
                   </div>
-                  {/* Text */}
                   <div className="col-lg-6">
                     <div className="me-lg-3">
                       <div className="py-5 my-5 me-lg-3">
@@ -336,6 +260,7 @@ function About() {
               </div>
             </div>
           </section>
+
           <section>
             <div className="container">
               <div className="row g-4">
@@ -345,68 +270,34 @@ function About() {
                     <h2 className="wow fadeInUp" data-wow-delay=".2s">Complete Cyber Defense Against Modern Attacks</h2>
                   </div>
                 </div>
-                <div className="col-lg-3">
-                  <div className="rounded-1 overflow-hidden">
-                    <img src="images/team/1.webp" className="w-100" alt="Cybersecurity Expert" />
-                    <div className="bg-light p-4 overflow-hidden text-center">
-                      <h4 className="mb-0">John Smith</h4>
-                      <p className="mb-2">Chief Security Officer</p>
-                      <div className="social-icons">
-                        <a href="#"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-linkedin" /></a>
-                        <a href="#"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-x-twitter" /></a>
-                        <a href="#"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-github" /></a>
+                {[
+                  { name: "John Smith", role: "Chief Security Officer", img: "1.webp" },
+                  { name: "Sarah Johnson", role: "Lead Threat Analyst", img: "2.webp" },
+                  { name: "Thomas Bennett", role: "Cloud Security Specialist", img: "3.webp" },
+                  { name: "Joshua Henry", role: "Incident Response Manager", img: "4.webp" }
+                ].map((member, index) => (
+                  <div className="col-lg-3" key={index}>
+                    <div className="rounded-1 overflow-hidden">
+                      <img src={`images/team/${member.img}`} className="w-100" alt={member.name} />
+                      <div className="bg-light p-4 overflow-hidden text-center">
+                        <h4 className="mb-0">{member.name}</h4>
+                        <p className="mb-2">{member.role}</p>
+                        <div className="social-icons">
+                          <a href="/"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-linkedin" /></a>
+                          <a href="/"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-x-twitter" /></a>
+                          <a href="/"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-github" /></a>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div className="col-lg-3">
-                  <div className="rounded-1 overflow-hidden">
-                    <img src="images/team/2.webp" className="w-100" alt="Threat Analyst" />
-                    <div className="bg-light p-4 overflow-hidden text-center">
-                      <h4 className="mb-0">Sarah Johnson</h4>
-                      <p className="mb-2">Lead Threat Analyst</p>
-                      <div className="social-icons">
-                        <a href="#"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-linkedin" /></a>
-                        <a href="#"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-x-twitter" /></a>
-                        <a href="#"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-github" /></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3">
-                  <div className="rounded-1 overflow-hidden">
-                    <img src="images/team/3.webp" className="w-100" alt="Cloud Security Specialist" />
-                    <div className="bg-light p-4 overflow-hidden text-center">
-                      <h4 className="mb-0">Thomas Bennett</h4>
-                      <p className="mb-2">Cloud Security Specialist</p>
-                      <div className="social-icons">
-                        <a href="#"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-linkedin" /></a>
-                        <a href="#"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-x-twitter" /></a>
-                        <a href="#"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-github" /></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-3">
-                  <div className="rounded-1 overflow-hidden">
-                    <img src="images/team/4.webp" className="w-100" alt="Incident Response Manager" />
-                    <div className="bg-light p-4 overflow-hidden text-center">
-                      <h4 className="mb-0">Joshua Henry</h4>
-                      <p className="mb-2">Incident Response Manager</p>
-                      <div className="social-icons">
-                        <a href="#"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-linkedin" /></a>
-                        <a href="#"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-x-twitter" /></a>
-                        <a href="#"><i className="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-github" /></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </section>
+
           <section className="section-dark bg-color text-light pt-60 pb-50 relative overflow-hidden">
             <div className="w-30 abs abs-middle end-0 me-5 op-1">
-              <img src="images/logo-big-white.webp" className="w-100 wow scaleIn" alt />
+              <img src="images/logo-big-white.webp" className="w-100 wow scaleIn" alt="Cyber Aries Large Logo" />
             </div>
             <div className="container">
               <div className="row g-4">
@@ -420,24 +311,23 @@ function About() {
             </div>
           </section>
         </div>
-        {/* content end */}
-        {/* footer begin */}
+
         <footer className="section-dark">
           <div className="container">
             <div className="row gx-5">
               <div className="col-lg-4 col-sm-6">
-                <img src="images/logo-white.webp" className="logo-footer" alt />
+                <img src="images/logo-white.webp" className="logo-footer" alt="Cyber Aries Footer Logo" />
                 <div className="spacer-20" />
                 <p>At Cyber Aries Pvt. Ltd., we’re committed to delivering professional, high-quality cybersecurity
                   solutions. From proactive threat monitoring to advanced data protection, we help keep your business
                   secure while preserving its reputation and protecting it from evolving digital threats.</p>
                 <div className="social-icons mb-sm-30">
-                  <a href="#"><i className="fa-brands fa-linkedin fa-lg" /></a>
-                  <a href="#"><i className="fa-brands fa-x-twitter fa-lg" /></a>
-                  <a href="#"><i className="fa-brands fa-facebook fa-lg" /></a>
-                  <a href="#"><i className="fa-brands fa-instagram fa-lg" /></a>
-                  <a href="#"><i className="fa-brands fa-whatsapp" /></a>
-                  <a href="#"><i className="fa-brands fa-blogger fa-lg" /></a>
+                  <a href="/"><i className="fa-brands fa-linkedin fa-lg" /></a>
+                  <a href="/"><i className="fa-brands fa-x-twitter fa-lg" /></a>
+                  <a href="/"><i className="fa-brands fa-facebook fa-lg" /></a>
+                  <a href="/"><i className="fa-brands fa-instagram fa-lg" /></a>
+                  <a href="/"><i className="fa-brands fa-whatsapp" /></a>
+                  <a href="/"><i className="fa-brands fa-blogger fa-lg" /></a>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
@@ -448,7 +338,6 @@ function About() {
                       <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/services">Our Services</a></li>
-                        {/* <li><a href="gallery.html">Gallery</a></li> */}
                         <li><a href="/about">About Us</a></li>
                         <li><a href="/blog">Blog</a></li>
                         <li><a href="/career">Career</a></li>
@@ -502,21 +391,19 @@ function About() {
                     </div>
                     <div>
                       <ul className="menu-simple">
-                        <li><a href="/terms-and-conditions" data-modal="termsModal">Terms &amp; Conditions</a></li>
-                        <li><a href="/privacy-policy" data-modal="privacyModal">Privacy Policy</a></li>
+                        <li><a href="/terms-and-conditions">Terms &amp; Conditions</a></li>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div></footer>
-        {/* footer end */}
+          </div>
+        </footer>
       </div>
-      {/* Javascript Files
-    ================================================== */}
     </div>
-  )
+  );
 }
 
 export default About;

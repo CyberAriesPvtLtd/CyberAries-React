@@ -1,11 +1,7 @@
-import { useNavigate } from "react-router-dom";
-
 const ReloadLink = ({ to, children, ...props }) => {
-  // const navigate = useNavigate();
-
   const handleClick = (e) => {
     e.preventDefault();
-    window.location.href = to; // FULL PAGE RELOAD
+    window.location.href = to; // Performs the full page reload
   };
 
   return (

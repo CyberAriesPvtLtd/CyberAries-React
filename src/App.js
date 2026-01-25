@@ -1,13 +1,10 @@
-// import logo from './logo.svg';
 import React, { useState } from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from './components/Header';
-// import Home from "./pages/home.js"  // Old Home - Commented out
 import About from "./pages/about.js"
 import Services from "./pages/services.js"
 import Appointment from "./pages/appointment.js";
-import './css/style.css';
 import ExternalScripts from './ExternalScripts.js';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import RouteChangeHandler from './RouteChangeHandler';
 import Blog from "./pages/blog.js"; 
 import BlogSinglePage from "./pages/blog-single.js";
@@ -24,21 +21,20 @@ import TermsAndConditions from "./pages/Terms&Conditions.js";
 import HomeNew from './components/Home';
 import Careers from './components/Careers';
 import Footer from './components/Footer';
-import './App.css';
 
+// CSS
+import './css/style.css';
+import './App.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
 
   return (
-    
     <BrowserRouter>
         <RouteChangeHandler />
         <ExternalScripts />
         
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
-          
           <Route path="/" element={
             <>
               <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
@@ -70,7 +66,6 @@ function App() {
           <Route path="/Terms&Conditions" element={<TermsAndConditions />} />
         </Routes>
     </BrowserRouter>
-    
   );
 }
 
