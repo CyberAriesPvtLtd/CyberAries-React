@@ -1,5 +1,5 @@
 import React from "react";
-import ReloadLink from "../components/ReloadLink";
+// import ReloadLink from "../components/ReloadLink";
 
 // CSS
 import "../css/bootstrap.min.css";
