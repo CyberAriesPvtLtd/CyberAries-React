@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { useModals } from "../useModals";
+// import { Link } from "react-router-dom";
+// import { useModals } from "../useModals";
 import ReloadLink from "../components/ReloadLink";
 
 // CSS
@@ -16,42 +16,42 @@ import "@icon/icofont/icofont.css";
 import "icofont/dist/icofont.css";
 
 // Images
-import logoWhite from "../images/logo-white.webp";
-import logoBigWhite from "../images/logo-big-white.webp";
+// import logoWhite from "../images/logo-white.webp";
+// import logoBigWhite from "../images/logo-big-white.webp";
 
-import b1 from "../images/badge/1.webp";
-import b2 from "../images/badge/2.webp";
-import b3 from "../images/badge/3.webp";
-import b4 from "../images/badge/4.webp";
-import b5 from "../images/badge/5.webp";
-import b6 from "../images/badge/6.webp";
+// import b1 from "../images/badge/1.webp";
+// import b2 from "../images/badge/2.webp";
+// import b3 from "../images/badge/3.webp";
+// import b4 from "../images/badge/4.webp";
+// import b5 from "../images/badge/5.webp";
+// import b6 from "../images/badge/6.webp";
 
-import bg6 from "../images/background/6.webp";
+// import bg6 from "../images/background/6.webp";
 
-import l1 from "../images/misc/l1.webp";
-import s1 from "../images/misc/s1.webp";
-import s2 from "../images/misc/s2.webp";
-import s3 from "../images/misc/s3.webp";
-import c1 from "../images/misc/c1.webp";
+// import l1 from "../images/misc/l1.webp";
+// import s1 from "../images/misc/s1.webp";
+// import s2 from "../images/misc/s2.webp";
+// import s3 from "../images/misc/s3.webp";
+// import c1 from "../images/misc/c1.webp";
 
-import project1 from "../images/projects/1.webp";
-import project2 from "../images/projects/2.webp";
-import project3 from "../images/projects/3.webp";
+// import project1 from "../images/projects/1.webp";
+// import project2 from "../images/projects/2.webp";
+// import project3 from "../images/projects/3.webp";
 
-import testimonial1 from "../images/testimonial/1.webp";
-import testimonial2 from "../images/testimonial/2.webp";
-import testimonial3 from "../images/testimonial/3.webp";
-import testimonial4 from "../images/testimonial/4.webp";
-import testimonial5 from "../images/testimonial/5.webp";
-import testimonial6 from "../images/testimonial/6.webp";
-import testimonial7 from "../images/testimonial/7.webp";
-import testimonial8 from "../images/testimonial/8.webp";
-import testimonial9 from "../images/testimonial/9.webp";
-import testimonial10 from "../images/testimonial/10.webp";
+// import testimonial1 from "../images/testimonial/1.webp";
+// import testimonial2 from "../images/testimonial/2.webp";
+// import testimonial3 from "../images/testimonial/3.webp";
+// import testimonial4 from "../images/testimonial/4.webp";
+// import testimonial5 from "../images/testimonial/5.webp";
+// import testimonial6 from "../images/testimonial/6.webp";
+// import testimonial7 from "../images/testimonial/7.webp";
+// import testimonial8 from "../images/testimonial/8.webp";
+// import testimonial9 from "../images/testimonial/9.webp";
+// import testimonial10 from "../images/testimonial/10.webp";
 
-import news1 from "../images/news/s1.webp";
-import news2 from "../images/news/s2.webp";
-import news3 from "../images/news/s3.webp";
+// import news1 from "../images/news/s1.webp";
+// import news2 from "../images/news/s2.webp";
+// import news3 from "../images/news/s3.webp";
 
 function Appointment() {
     return (

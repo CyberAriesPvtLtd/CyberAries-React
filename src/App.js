@@ -15,9 +15,9 @@ import Career from "./pages/career.js";
 import Pricing from "./pages/pricing.js";
 import Contact from "./pages/contact.js";
 import PrivacyPolicy from "./pages/PrivacyPolicy.js";     
-import Project_single from "./pages/project-single.js";
+import ProjectSingle from "./pages/project-single.js";
 import Projects from "./pages/projects.js";
-import Service_single from "./pages/service-single.js";
+import ServiceSingle from "./pages/service-single.js";
 import TermsAndConditions from "./pages/Terms&Conditions.js";
 
 // New imports for your custom pages
@@ -64,9 +64,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
-          <Route path="/project-single" element={<Project_single />} />
+          <Route path="/project-single" element={<ProjectSingle />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/service-single" element={<Service_single />} />
+          <Route path="/service-single" element={<ServiceSingle />} />
           <Route path="/Terms&Conditions" element={<TermsAndConditions />} />
         </Routes>
     </BrowserRouter>

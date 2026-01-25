@@ -241,7 +241,7 @@ const Home = () => {
                 </div>
                 <h3 className="service-title">{service.title}</h3>
                 <p className="service-description">{service.description}</p>
-                <a href="#" className="btn-secondary">Learn More</a>
+                <a href="/" className="btn-secondary">Learn More</a>
               </div>
             ))}
           </div>

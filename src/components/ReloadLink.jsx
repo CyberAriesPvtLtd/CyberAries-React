@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 const ReloadLink = ({ to, children, ...props }) => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const handleClick = (e) => {
     e.preventDefault();

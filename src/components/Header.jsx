@@ -51,10 +51,10 @@ const Header = ({ currentPage, setCurrentPage }) => {
             </a>
           </div>
           <div className="topbar-social">
-            <a href="#"><i className="fab fa-linkedin"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-facebook"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
+            <a href="/"><i className="fab fa-linkedin"></i></a>
+            <a href="/"><i className="fab fa-twitter"></i></a>
+            <a href="/"><i className="fab fa-facebook"></i></a>
+            <a href="/"><i className="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
