@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { useModals } from "../useModals";
-import ReloadLink from "../components/ReloadLink";
+// import ReloadLink from "../components/ReloadLink";
 
 // CSS
 import "../css/bootstrap.min.css";

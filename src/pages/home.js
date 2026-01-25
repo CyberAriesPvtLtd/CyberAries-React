@@ -116,7 +116,7 @@ function Home() {
       {/* End Google Tag Manager (noscript) */}
       <div id="wrapper">
         <div className="float-text show-on-scroll">
-          <span><a href="#">Scroll to top</a></span>
+          <span><a href="/">Scroll to top</a></span>
         </div>
         <div className="scrollbar-v show-on-scroll" />
         <div className="scrollbar-v show-on-scroll" />
@@ -616,7 +616,7 @@ function Home() {
                     src={c1}
                     className="w-100 wow fadeInUp"
                     data-wow-delay=".3s"
-                    alt=""
+                    alt="img"
                   />
                 </div>
               </div>
@@ -643,7 +643,7 @@ function Home() {
                   <img
                     src={project1}
                     className="hover-scale-1-1 w-100"
-                    alt=""
+                    alt="img"
                   />
                   <div className="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
                     <div className="mb-3">Safeguard your online store with end-to-end protection, preventing data breaches, fraud, and unauthorized access.</div>
@@ -663,7 +663,7 @@ function Home() {
                   <img
                     src={project2}
                     className="hover-scale-1-1 w-100"
-                    alt=""
+                    alt="img"
                   />
                   <div className="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
                     <div className="mb-3">Eliminate hidden cloud vulnerabilities with expert misconfiguration audits, secure policies, and real-time fixes.</div>
@@ -683,7 +683,7 @@ function Home() {
                   <img
                     src={project3}
                     className="hover-scale-1-1 w-100"
-                    alt=""
+                    alt="img"
                   />
                   <div className="abs w-100 px-4 hover-op-1 z-4 hover-mt-40 abs-centered">
                     <div className="mb-3">Strengthen your firm’s defenses with advanced protection, compliance support, and incident response readiness.</div>
@@ -720,7 +720,7 @@ function Home() {
                       <div className="d-flex align-items-center">
                         <img
                           className="w-40px circle me-3"
-                          alt=""
+                          alt="img"
                           src={testimonial1}
                         />
                         <div className="mt-2">
@@ -751,7 +751,7 @@ function Home() {
                       <div className="d-flex align-items-center">
                         <img
                           className="w-40px circle me-3"
-                          alt=""
+                          alt="img"
                           src={testimonial2}
                         />
                         <div className="mt-2">
@@ -782,7 +782,7 @@ function Home() {
                       <div className="d-flex align-items-center">
                         <img
                           className="w-40px circle me-3"
-                          alt=""
+                          alt="img"
                           src={testimonial3}
                         />
                         <div className="mt-2">
@@ -813,7 +813,7 @@ function Home() {
                       <div className="d-flex align-items-center">
                         <img
                           className="w-40px circle me-3"
-                          alt=""
+                          alt="img"
                           src={testimonial4}
                         />
                         <div className="mt-2">
@@ -844,7 +844,7 @@ function Home() {
                       <div className="d-flex align-items-center">
                         <img
                           className="w-40px circle me-3"
-                          alt=""
+                          alt="img"
                           src={testimonial5}
                         />
                         <div className="mt-2">
@@ -875,7 +875,7 @@ function Home() {
                       <div className="d-flex align-items-center">
                         <img
                           className="w-40px circle me-3"
-                          alt=""
+                          alt="img"
                           src={testimonial6}
                         />
                         <div className="mt-2">
@@ -906,7 +906,7 @@ function Home() {
                       <div className="d-flex align-items-center">
                         <img
                           className="w-40px circle me-3"
-                          alt=""
+                          alt="img"
                           src={testimonial7}
                         />
                         <div className="mt-2">
@@ -937,7 +937,7 @@ function Home() {
                       <div className="d-flex align-items-center">
                         <img
                           className="w-40px circle me-3"
-                          alt=""
+                          alt="img"
                           src={testimonial8}
                         />
                         <div className="mt-2">
@@ -968,7 +968,7 @@ function Home() {
                       <div className="d-flex align-items-center">
                         <img
                           className="w-40px circle me-3"
-                          alt=""
+                          alt="img"
                           src={testimonial9}
                         />
                         <div className="mt-2">
@@ -999,7 +999,7 @@ function Home() {
                       <div className="d-flex align-items-center">
                         <img
                           className="w-40px circle me-3"
-                          alt=""
+                          alt="img"
                           src={testimonial10}
                         />
                         <div className="mt-2">
@@ -1051,7 +1051,7 @@ function Home() {
                       <img
                         src={testimonial1}
                         className="w-20px me-2 circle"
-                        alt=""
+                        alt="img"
                       />
                       <div className="d-inline fs-14 me-3">Michael Carter</div>
                       <div className="d-inline fs-14"><i className="icofont-ui-calendar id-color me-2" />15 Jul 2025</div>
@@ -1074,7 +1074,7 @@ function Home() {
                       <img
                         src={testimonial2}
                         className="w-20px me-2 circle"
-                        alt=""
+                        alt="img"
                       />
                       <div className="d-inline fs-14 me-3">Sophia Lee</div>
                       <div className="d-inline fs-14"><i className="icofont-ui-calendar id-color me-2" />10 Jul 2025</div>
@@ -1097,7 +1097,7 @@ function Home() {
                       <img
                         src={testimonial3}
                         className="w-20px me-2 circle"
-                        alt=""
+                        alt="img"
                       />
                       <div className="d-inline fs-14 me-3">David Wilson</div>
                       <div className="d-inline fs-14"><i className="icofont-ui-calendar id-color me-2" />2 Jul 2025</div>
@@ -1114,7 +1114,7 @@ function Home() {
             <img
               src={logoBigWhite}
               className="w-100 wow scaleIn"
-              alt=""
+              alt="img"
             />
           </div>
           <div className="container">
@@ -1134,14 +1134,14 @@ function Home() {
       <div id="termsModal" className="modal-overlay">
         <div className="modal-content">
           <span className="modal-close">×</span>
-          <iframe src="/Terms&Conditions" />
+          <iframe title="Terms & Conditions" src="/Terms&Conditions" />
         </div>
       </div>
       {/* Privacy Modal */}
       <div id="privacyModal" className="modal-overlay">
         <div className="modal-content">
           <span className="modal-close">×</span>
-          <iframe src="/PrivacyPolicy" />
+          <iframe title="Privacy Policy" src="/PrivacyPolicy" />
         </div>
       </div>
       {/* content end */}
@@ -1153,7 +1153,7 @@ function Home() {
               <img
                 src={logoWhite}
                 className="logo-footer"
-                alt=""
+                alt="img"
               />
               <div className="spacer-20" />
               <p>At Cyber Aries Pvt. Ltd., we’re committed to delivering professional, high-quality cybersecurity solutions. From proactive threat monitoring to advanced data protection, we help keep your business secure while preserving its reputation and protecting it from evolving digital threats.</p>
