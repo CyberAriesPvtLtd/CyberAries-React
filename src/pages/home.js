@@ -141,12 +141,12 @@ function Home() {
                       </div>
                       <div className="d-flex">
                         <div className="social-icons">
-                          <a href="#"><i className="fa-brands fa-linkedin fa-lg" /></a>
-                          <a href="#"><i className="fa-brands fa-x-twitter fa-lg" /></a>
-                          <a href="#"><i className="fa-brands fa-facebook fa-lg" /></a>
-                          <a href="#"><i className="fa-brands fa-instagram fa-lg" /></a>
-                          <a href="#"><i className="fa-brands fa-whatsapp" /></a>
-                          <a href="#"><i className="fa-brands fa-blogger fa-lg" /></a>
+                          <a href="/"><i className="fa-brands fa-linkedin fa-lg" /></a>
+                          <a href="/"><i className="fa-brands fa-x-twitter fa-lg" /></a>
+                          <a href="/"><i className="fa-brands fa-facebook fa-lg" /></a>
+                          <a href="/"><i className="fa-brands fa-instagram fa-lg" /></a>
+                          <a href="/"><i className="fa-brands fa-whatsapp" /></a>
+                          <a href="/"><i className="fa-brands fa-blogger fa-lg" /></a>
                         </div>
                       </div>
                     </div>
@@ -1158,12 +1158,12 @@ function Home() {
               <div className="spacer-20" />
               <p>At Cyber Aries Pvt. Ltd., we’re committed to delivering professional, high-quality cybersecurity solutions. From proactive threat monitoring to advanced data protection, we help keep your business secure while preserving its reputation and protecting it from evolving digital threats.</p>
               <div className="social-icons mb-sm-30">
-                <a href="#"><i className="fa-brands fa-linkedin fa-lg" /></a>
-                <a href="#"><i className="fa-brands fa-x-twitter fa-lg" /></a>
-                <a href="#"><i className="fa-brands fa-facebook fa-lg" /></a>
-                <a href="#"><i className="fa-brands fa-instagram fa-lg" /></a>
-                <a href="#"><i className="fa-brands fa-whatsapp" /></a>
-                <a href="#"><i className="fa-brands fa-blogger fa-lg" /></a>
+                <a href="/"><i className="fa-brands fa-linkedin fa-lg" /></a>
+                <a href="/"><i className="fa-brands fa-x-twitter fa-lg" /></a>
+                <a href="/"><i className="fa-brands fa-facebook fa-lg" /></a>
+                <a href="/"><i className="fa-brands fa-instagram fa-lg" /></a>
+                <a href="/"><i className="fa-brands fa-whatsapp" /></a>
+                <a href="/"><i className="fa-brands fa-blogger fa-lg" /></a>
               </div>
             </div>
             <div className="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
